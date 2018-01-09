@@ -1,0 +1,17 @@
+<h1>Sails + Angular 5 Starter App</h1>
+
+<div class="card">
+<div *ngFor="let contact of data;let i= index" class="category">
+<h1>Category</h1>    
+<p>Category Id: {{contact.category_id}}</p>
+<p>Category Name: {{contact.name}}</p>
+<p>Category app_icon: {{contact.app_icon}}</p>
+<p>Category_id: {{contact.id}}</p>
+<h1>Prototype</h1>
+<p >Prototype Id: {{contact.prototype[i].prototype_id}}</p>
+<p >Prototype name: {{contact.prototype[i].name}}</p>
+<p >Prototype category: {{contact.prototype[i].category}}</p>
+<p >Prototype tags: {{contact.prototype[i].tags}}</p>
+<p >Prototype_id: {{contact.prototype[i].id}}</p>
+</div>
+</div>
